@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wrinkles Bookworm Bookstore:Home</title>
+    <link rel="icon" type="image/x-icon" href="Pictures\Logo.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="bgimage">
+    <img src="Pictures/Logo.png" class="logo">
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="C:\Users\Kriti Sethi\GitHub Projects\Bookshop Website (Static)\Home.html">HOME</a></li>
+            <li><a href="C:\Users\Kriti Sethi\GitHub Projects\Bookshop Website (Static)\Books In-Store.html">BOOKS IN-STORE</a></li>
+            <li><a class="active" href="C:\Users\Kriti Sethi\GitHub Projects\Bookshop Website (Static)\Issue_Order Book.html">ORDER BOOK</a></li>
+            <li><a href="C:\Users\Kriti Sethi\GitHub Projects\Bookshop Website (Static)\Contact Us.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <marquee class="tag">ORDER NOW!</marquee>
+
+    <img src="Pictures\Order Pickup.png" width="100%" height="500px" style="margin-top: 20px; margin-bottom: 20px;">
+
+    <div class="form-container">
+        <form method="post" class="book-form">
+            <h2 style="text-align: center; margin-bottom: 20px;">Order a Book</h2>
+
+            <label>Name:</label>
+            <input type="text" name="cust_name" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" name="cust_email" placeholder="Enter your email">
+
+            <label>Phone Number:</label>
+            <input type="tel" name="cust_phn" placeholder="Enter your phone number">
+
+            <label>Address:</label>
+            <input type="text" name="add" placeholder="Enter your address">
+
+            <label>Book:</label>
+            <select>
+            <option>Nothing Like The Movies (Lynn Painter)</option>
+            <option>Identity Unknown (Patricia Cornwell)</option>
+            <option>Lies He Told Me (James Patterson & David Ellis)</option>
+            <option>Counting Miracles (Nicholas Sparks)</option>
+            <option>From Here To The Great Unknown (Lisa Marie Presley & Riley Keough)</option>
+            </select>
+
+            <label>Number of Copies:</label>
+            <input type="number" name="num_of_copies">
+
+            <label>Cover:</label>
+
+            <div class="cover-options">
+                <input type="radio" name="cover" value="hard_cover"> Hardcover
+                <input type="radio" name="cover" value="paper_cover"> Papercover
+            </div>
+
+            <input type="submit" value="Order" class="submit-btn">
+        </form>
+    </div>
+    <hr>
+
+    <footer class="footer">
+        <span id="left">Copyright © 2024 Wrinkles Bookworm | All Rights Reserved</span>
+
+        <span id="right">Terms & Conditions|Privacy Policy</span>
+    </footer>
+
+</body>
+</html>
