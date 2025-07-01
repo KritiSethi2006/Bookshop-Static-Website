@@ -19,3 +19,6 @@ This website is built entirely using front-end technologies:-
 • HTML – Provides the structural foundation for content organization.
 
 • CSS – Styles the layout, ensuring a visually appealing presentation with responsive design.
+
+Link of website:-
+https://kritisethi2006.github.io/Bookshop-Static-Website/
