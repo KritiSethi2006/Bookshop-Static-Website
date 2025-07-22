@@ -27,6 +27,4 @@ This project is a beautifully crafted static website designed to showcase a book
 
 🔗 Live Website: https://kritisethi2006.github.io/Bookshop-Static-Website/
 
-🗂 GitHub Repository: https://github.com/KritiSethi2006/Bookshop-Static-Website
-
 🌐 LinkedIn Post: https://www.linkedin.com/posts/kritisethi2006_webdevelopment-frontendprojects-htmlcss-activity-7345799874556194818-yTRM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFWXPdABtxDAIjSA_8TFbf7ZOn_H4U7xeJk
